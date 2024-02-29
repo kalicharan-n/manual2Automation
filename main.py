@@ -9,7 +9,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Manual- Automation Test Case Converter", layout='wide', page_icon="🤖")
 st.title('Manual- Automation Test Case Converter')
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 
 def gen_testcases(uploaded_file, option_pl, option_af):
