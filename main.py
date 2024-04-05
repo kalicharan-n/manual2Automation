@@ -23,7 +23,7 @@ def gen_testcases(uploaded_file, option_pl, option_af):
         for ind in df.index:
             prompt = PromptTemplate(
                 template=""""/
-            You are an software automation test engineer. Generate a script for the test case {test_case} using below instructions.
+            You are a software automation test engineer. Generate a script for the test case {test_case} using below instructions.
             Please write a code in {pgm_lang} based {auto_framework} framework to automate the below steps in Firefox browser.
 
             {steps}
